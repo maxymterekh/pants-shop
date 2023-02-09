@@ -20,6 +20,9 @@
     margin-right: 200px;
     
 }
+nav {
+    display: flex;
+}
 
 .bg-body-tertiary {
  background-color: transparent;
@@ -35,6 +38,7 @@
 .header-list__item {
 
     margin-right: 30px;
+    padding-top: 50px;
     
     
 }
@@ -77,6 +81,25 @@
 
 .header-list__item:last-child {
  margin-right: 0;
+}
+
+.btn {
+    height: 40px;
+    padding: 50px ;
+    
+    margin-left: 10px;
+    
+}
+
+.form-outline {
+
+    margin-right: 20px;
+}
+
+.input-group {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-section {
