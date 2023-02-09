@@ -1,0 +1,168 @@
+/* header  */
+  .header {
+    
+     background-color: lightslategrey;
+     padding: 30px 0px;
+     border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
+  }
+
+  
+
+  
+
+
+
+.main-logo {
+    font-family: Unbounded;
+    font-weight: 800;
+    font-size: 40px;
+    
+    margin-right: 200px;
+    
+}
+
+.bg-body-tertiary {
+ background-color: transparent;
+}
+
+.header-info {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.header-list__item {
+
+    margin-right: 30px;
+    
+    
+}
+
+.header-list__link {
+    font-family: uNBOUNDED;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(30/24);
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-list__link:hover {
+    color: blue;
+}
+
+.header-contacts__item {
+   margin-bottom: 10px;
+    
+}
+
+.header-contacts__item:last-child {
+    margin-bottom: 0px;
+     
+ }
+
+
+
+.header-contacts__link {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(25/20);
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.header-list__item:last-child {
+ margin-right: 0;
+}
+
+.hero-section {
+    background-color: lightslategray ;
+    padding: 60px 0px;
+    display: block;
+
+}
+
+.hero-section .container-md {
+    display: flex;
+    align-items: center;
+}
+
+.hero__title-box {
+    margin-left: 70px;
+   
+}
+
+.hero__main-title {
+font-family:unbounded;
+font-weight: 600;
+font-size: 44px;
+}
+
+.hero__description {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+/* WARE */
+
+.ware-section {
+    padding: 80px 0px;
+}
+
+.ware__title {
+    text-align: center;
+    font-family: unbounded;
+    font-size: 40px;
+}
+
+.ware__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ware__list-item {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.card-body {
+    background-color: lightgray;
+}
+
+
+
+.card-text{
+    font-size: 21px;
+}
+
+.card-text2 {
+    font-size: 15px;
+}
+    
+
+
+
+footer {
+    background-color: lightslategray;
+    padding: 60px 0px;
+}
+
+.footer__box {
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer__list-link {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
